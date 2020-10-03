@@ -15,6 +15,12 @@ DEVICE_PACKAGE_OVERLAYS += \
 TARGET_SCREEN_HEIGHT := 1572
 TARGET_SCREEN_WIDTH := 720
 
+# speed up
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Launcher3QuickStep \
+    Settings \
+    SystemUI
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml \
