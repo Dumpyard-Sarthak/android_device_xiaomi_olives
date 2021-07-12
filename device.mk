@@ -62,5 +62,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# ssos
+PRODUCT_BOARD_PLATFORM := msm8937
+PRODUCT_USES_QCOM_HARDWARE := true
+TARGET_USES_BLUR := true
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/olives/olives-vendor.mk)
