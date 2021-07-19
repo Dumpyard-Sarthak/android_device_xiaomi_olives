@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The Android Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -10,7 +10,6 @@ $(call inherit-product, device/xiaomi/sdm439-common/sdm439.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage \
     $(LOCAL_PATH)/overlay-aosp
 
 # Boot animation
