@@ -12,7 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common NezukoOS stuff.
 $(call inherit-product, vendor/nezuko/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 720
-DEVICE_MAINTAINER := Chuck.
 
 # Inherit from olives device
 $(call inherit-product, device/xiaomi/olives/device.mk)
